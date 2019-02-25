@@ -4,16 +4,17 @@
     <title>TodoApp</title>
     <script src="todo.js" defer></script>
 </head>
-<div>
-<ul>
+<body>
+<ul id="todoList">
     <li>Todo 1</li> 
     <li>Todo 2</li> 
     <li>Todo 3</li> 
     <li>Todo 4</li> 
     <li>Todo 5</li> 
     <li>Todo 6</li> 
-    Todo: <input type="text" name="addTodo"><br>
-    <input type="submit" value="Submit">
 </ul>
-</div>
+<input type="text" id="todoBox"  value="Todo Item">
+<button id="addTodo" onclick="addTodo()">Add Todo</button>
+
+</body>
 </html>
