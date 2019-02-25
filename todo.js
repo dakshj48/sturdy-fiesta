@@ -4,5 +4,5 @@ function addTodo() {
     node.appendChild(document.createTextNode(item));
     let list = document.getElementById('todoList');
     list.appendChild(node);
-    document.getElementById('todoBox').value = 'TodoItem';
+    document.getElementById('todoBox').value = '';
 }
